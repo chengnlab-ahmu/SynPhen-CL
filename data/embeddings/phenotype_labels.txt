@@ -1,0 +1,24 @@
+0	Benign
+1	Cellular
+2	Blood or blood-forming tissues
+3	Head or neck
+4	Limbs
+5	Metabolism or homeostasis
+6	Prenatal development or birth
+7	Breast
+8	Cardiovascular
+9	Digestive
+10	Ear
+11	Endocrine
+12	Eye
+13	Genitourinary
+14	Immune
+15	Integument
+16	Musculoskeletal
+17	Nervous
+18	Respiratory
+19	Thoracic cavity
+20	Voice
+21	Constitutional symptom
+22	Growth
+23	Neoplasm

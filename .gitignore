@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Experiment outputs and checkpoints
+outputs/*
+!outputs/.gitkeep
+*.pt
+*.pth
+*.ckpt
+
+# Data are distributed separately; do not commit raw/derived research data by default.
+data/raw/*.csv
+data/external/*.csv
+models/coder/
+
+# Model weights exceed GitHub's 100MB file limit; distribute separately.
+models/*.bin
+models/*.safetensors
+
+# Generated arrays can be re-created; keep the small supplied label priors local unless explicitly approved.
+# data/embeddings/*.npy
